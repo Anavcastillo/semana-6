@@ -1,0 +1,143 @@
+body {
+background-color: #2A2727; 
+	
+}
+
+header {
+	background-image: url("../images/blanco.jpeg");
+	background-size: cover; 
+	background-position: bottom center;
+	height:50%;
+	width:100%; 
+
+}
+
+h1 {
+	margin-top: 3%;  
+font-size: 11.25em;
+font-family: helvetica bold; 
+color: #F3DC0A; 
+text-align: center; 
+
+}
+
+#banner { 
+background-image: url(../image/balnco.jpeg)
+background-size: cover;
+background-position: bottom center;
+height: 40%; 
+width: 100%; 
+}
+
+ul li{
+	display: inline-block; 
+	color: white;
+	text-align: center; 
+	list-style-type: none; 
+	margin: 7%; 
+	padding: 0%; 
+	margin: 0%;
+	padding: 0%;  
+	padding-right: 7%;  
+
+}
+
+nav { 
+margin-top: 15%;
+margin-bottom: 8%
+margin-right:20%;
+margin-left:8%;
+text-align: center; 
+
+
+}
+
+li a:hover {
+	background-color: #F3DC0A; 
+	 width: 40%; 
+
+}
+
+a{ 
+text-decoration: none; 
+color: black; 
+font-size: 1.25em;
+
+ }
+
+ a:hover { 
+ color:grey; 
+ width: 30%; 
+}
+
+#p1 { 
+ float: left;
+ border: 0.5%; 
+ height: 80%; 
+ width: 80%; 
+ margin-left: 40%; 
+ margin-top: 2%; 
+ text-align: justify;
+ 
+  }
+
+#p2 {
+float: right;
+ border: 0.5%; 
+ height: 80%; 
+ width: 80%; 
+ margin-right: -10%; 
+ margin-top: 1%; 
+ text-align: justify;
+  }
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 2%;
+    margin: 5%; 
+}
+
+article {
+
+float: center; 
+
+}
+
+
+p { 
+
+font-size: 1.5625em; 
+color: white;
+
+ }
+ 
+footer {
+	font-color: white;
+margin-left: 21%; 
+margin-top: 10%; 
+padding-right: 70%;
+padding-bottom: 7%;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 200px) {
+	
+	h1 {
+		font-size: 1.6em;
+
+	}
+
+}
+
+	
+
+
+
+
+
+
+
+
